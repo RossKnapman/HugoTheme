@@ -4,11 +4,12 @@
     <body>
         <div class="wrapper">
             {{- partial "sidebar.html" . -}}
-            <div id="content">
+            <div id="content" class="container-fluid">
                 {{- partial "header.html" . -}}
                 {{- block "main" . }}{{- end }}
                 {{- partial "script.html" . -}}
             </div>
         </div>
+        {{- partial "footer.html" . -}}
     </body>
 </html>

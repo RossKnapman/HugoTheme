@@ -7,15 +7,18 @@ body {
     align-items: stretch;
 }
 
-#site-header {
-    margin-bottom: 40px;
-    vertical-align: middle;
+a h1 {
+    color: black;
 }
 
 #site-title {
     display: inline-block;
     margin-left: 20px;
     vertical-align: middle;
+}
+
+.navbar .text-right a {
+    padding: 10px;
 }
 
 #content {
