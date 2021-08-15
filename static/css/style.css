@@ -7,6 +7,10 @@ body {
     align-items: stretch;
 }
 
+#menu-toggle:active {
+    transform: scale(1.5);
+}
+
 a h1 {
     color: black;
 }
@@ -19,6 +23,11 @@ a h1 {
 
 .navbar .text-right a {
     padding: 10px;
+}
+
+.social-media:hover {
+    transform: scale(1.4);
+    transition: all 0.3s;
 }
 
 #content {
