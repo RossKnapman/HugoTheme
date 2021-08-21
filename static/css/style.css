@@ -8,7 +8,8 @@ body {
 }
 
 #menu-toggle:active {
-    transform: scale(1.5);
+    border-radius: 50%;
+    background: rgb(209, 209, 209);
 }
 
 a h1 {
@@ -25,9 +26,9 @@ a h1 {
     padding: 10px;
 }
 
-.social-media:hover {
+.header-button:hover {
     transform: scale(1.4);
-    transition: all 0.3s;
+    transition: all 0.1s;
 }
 
 #content {

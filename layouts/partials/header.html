@@ -1,9 +1,9 @@
 <nav class="navbar">
-    <button onclick="toggleSidebar()" data-feather="menu" id="menu-toggle"></button>
+    <button onclick="toggleSidebar()" data-feather="menu" class="header-button" id="menu-toggle"></button>
     <a href="{{ .Site.BaseURL }}"><h1 id="site-title">{{ .Site.Title }}</h1></a>
     <div class="text-right">
-        <a href="/download/CV.pdf"><i data-feather="file-text" class="social-media"></i></a>
-        <a href="https://www.linkedin.com/in/{{ $.Site.Params.linkedin }}/"><i data-feather="linkedin" class="social-media"></i></a>
-        <a href="https://github.com/{{ $.Site.Params.github }}/"><i data-feather="github" class="social-media"></i></a>
+        <a href="/download/CV.pdf"><i data-feather="file-text" class="header-button"></i></a>
+        <a href="https://www.linkedin.com/in/{{ $.Site.Params.linkedin }}/"><i data-feather="linkedin" class="header-button"></i></a>
+        <a href="https://github.com/{{ $.Site.Params.github }}/"><i data-feather="github" class="header-button"></i></a>
     </div>
 </nav>
