@@ -3,7 +3,7 @@
     <a href="{{ .Site.BaseURL }}"><h1 id="site-title">{{ .Site.Title }}</h1></a>
     <div class="text-right">
         <a href="/download/CV.pdf"><i data-feather="file-text" class="social-media"></i></a>
-        <a href="https://www.linkedin.com/in/rossknapman97/"><i data-feather="linkedin" class="social-media"></i></a>
-        <a href="https://github.com/RossKnapman/"><i data-feather="github" class="social-media"></i></a>
+        <a href="https://www.linkedin.com/in/{{ $.Site.Params.linkedin }}/"><i data-feather="linkedin" class="social-media"></i></a>
+        <a href="https://github.com/{{ $.Site.Params.github }}/"><i data-feather="github" class="social-media"></i></a>
     </div>
 </nav>
