@@ -9,7 +9,9 @@
                 {{- block "main" . }}{{- end }}
                 {{- partial "script.html" . -}}
             </div>
+            {{- partial "footer.html" . -}}
+            <!-- Dark Overlay element -->
+            <div class="overlay"></div>
         </div>
-        {{- partial "footer.html" . -}}
     </body>
 </html>
