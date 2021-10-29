@@ -1,9 +1,4 @@
-$('#dismiss').on('click', function () {
-    console.log('Hello');
-    $('#sidebar').addClass('active');
-});
-
-$('#open-sidebar').on('click', function () {
-    console.log('Hello');
-    $('#sidebar').removeClass('active');
+$('.toggle-sidebar').on('click', function () {
+    $('#sidebar').toggleClass('active');
+    $('.overlay').toggleClass('active');
 });
