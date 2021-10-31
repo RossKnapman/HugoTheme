@@ -56,7 +56,7 @@ a h1 {
     }
 }
 
-.overlay {
+#overlay {
     display: none;
     position: fixed;
     /* full screen */
@@ -71,13 +71,13 @@ a h1 {
     transition: all 1s ease-in-out;
 }
 /* display .overlay when it has the .active class */
-.overlay.active {
+#overlay.active {
     display: block;
     opacity: 1;
     z-index: 1000;
 }
 
-#dismiss {
+#close-sidebar {
     width: 35px;
     height: 35px;
     position: absolute;
