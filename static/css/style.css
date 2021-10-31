@@ -46,16 +46,6 @@ a h1 {
     margin-left: -250px;
 }
 
-/* Sidebar hidden by default on mobile */
-@media (max-width: 768px) {
-    #sidebar {
-        margin-left: -250px;
-    }
-    #sidebar.active {
-        margin-left: 0;
-    }
-}
-
 #overlay {
     display: none;
     position: fixed;
@@ -88,15 +78,4 @@ a h1 {
 
 #list {
     display: inline;
-}
-
-@media (max-width: 768px) {
-    #sidebar {
-        margin-left: -250px;
-    }
-    #sidebar.active {
-        margin-left: 0;
-        min-width: 150px;
-        max-width: 150px;
-    }
 }
